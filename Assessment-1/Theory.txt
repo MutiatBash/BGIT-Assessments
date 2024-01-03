@@ -1,0 +1,28 @@
+HTML BASICS
+1 The purpose of the <DOCTYPE> tag is to inform the browser what version of HTML to use, 
+as there are currently 5 versions of HTML
+
+2 The <div> tag is a block element that takes up the entire width of the screen when declared.
+while the <span> tag is an inline element that only takes up as much width as it needs.
+- The div tag can also hold other block elemnts and inline elements
+
+3 Semantic HTML is part of the features of the current HTML5. They refer to HTML elements that are used to define sections of a webpage. 
+It is important because it helps with accessibility and readabilit. It also helps the browser to correctly identify the parts of the webpage being displayed.
+
+CSS FUNDAMENTALS
+1 - Margin refers to the space around an element. It is the distance between the padding and the edge of the screen
+- Padding on the other hand is the space surrounding the content of an element. 
+- Margin is used to give spacing outside an element
+- Paddding is used to give spacing inside the element
+
+2 Box Model in CSS is a concept used to represent an element on the webpage. Elements are viewed as being in a box where each element consists of a:
+- Content
+- Padding
+- Border
+- Margin
+
+
+
+2
+
+3 Viewport is used to specify how the content should take up the screen
