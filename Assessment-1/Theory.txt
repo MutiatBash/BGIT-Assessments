@@ -1,4 +1,5 @@
 HTML BASICS
+
 1 The purpose of the <DOCTYPE> tag is to inform the browser what version of HTML to use, 
 as there are currently 5 versions of HTML
 
@@ -10,6 +11,7 @@ while the <span> tag is an inline element that only takes up as much width as it
 It is important because it helps with accessibility and readabilit. It also helps the browser to correctly identify the parts of the webpage being displayed.
 
 CSS FUNDAMENTALS
+
 1 - Margin refers to the space around an element. It is the distance between the padding and the edge of the screen
 - Padding on the other hand is the space surrounding the content of an element. 
 - Margin is used to give spacing outside an element
@@ -21,8 +23,30 @@ CSS FUNDAMENTALS
 - Border
 - Margin
 
+3 CSS specificity hierarchy is used to is used to determine which styling of an element has more importance. 
 
+RESPONSIVE DESIGN
 
-2
+1 Media Query is used to specify what effect should take place on the webpage which is determined by declaring certain rules.
+It is used in responsive design to specify how elements should behave or be positioned at different screen sizes on the webpage.
+
+2 Responsive Design refers to making the contents of the webpage adjust according to the width of the screen. It helps with accessiblity and ensures that websites look visually appealing regardless of whether 
+it is viewed on mobile or desktop. In responsive design, specific rules are applied to make they adjustable. 
+
+- In adaptive Design, the contents have been designed already based on the screen sizes and each screens might have different layouts. This is more time comsuming compared to responsive design
 
 3 Viewport is used to specify how the content should take up the screen
+
+HTML5 AND CSS features
+
+1 The new HTML5 features
+- Semantic HTML
+- Audio tag
+- Video tag
+
+2 CSS Variables are used to define specific CSS properties that can be reused across the webpage. Instead of having to declare the properties repeatedly,
+ the properties are defined in the root and can be used anywhere for styling. They can be accessed by declareing the keyword var() and then specifying the name of the variable 
+ inside the brackets.
+
+3 Flexbox or Grid enables us to properly style the contents of our website. It allows us to easily have control over the look of the site as we are able to style the contents to look properly and visually appealing.
+They both make responsive styling easy as we can interchange properties and change the flow of the content based on the screen sizes.
